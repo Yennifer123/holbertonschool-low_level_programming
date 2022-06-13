@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * main - prints the size of various types 
- *
- * Return: Always 0 (Success)
- */
+* main - prints the size of various types
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 char charType;
