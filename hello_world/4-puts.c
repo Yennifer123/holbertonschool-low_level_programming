@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-/*
+/**
  * Use the function puts
  */
 int main(void)
