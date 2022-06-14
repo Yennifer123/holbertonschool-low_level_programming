@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main -using if else 
- * 
+ * main --using if else 
+ *  
  *return: 0 
  */
 int main(void)
@@ -21,5 +21,5 @@ int main(void)
 	else{
 		printf("%d is zero\n",n);
 	}
-	return (0)
+	return (0);
 }
