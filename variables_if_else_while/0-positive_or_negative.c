@@ -1,11 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/**
- * main --using if else 
- *  
- *return: Always 0 (Success)
- */
+/* main -- using if else */
+
+/* Return: Always 0 (Success) */
 int main(void)
 {
 	int n;
