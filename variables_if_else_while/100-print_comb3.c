@@ -9,25 +9,23 @@ int main(void)
 	int number = 0;
 	int numberTwo = 0;
 
-	for (number = 48; number < 58; number++)
+	for (number = '0'; number < '8'; number++)
 	{
-		for (numberTwo = 48; numberTwo < 58; numberTwo++)
+		for (numberTwo = '0'; numberTwo < '9'; numberTwo++)
 		{
 			if (number < numberTwo)
 			{
 				putchar(number);
 				putchar(numberTwo);
-				if (number == 57 && numberTwo == 56)
+				if (number != '8' && numberTwo != '9')
 				{
-					putchar(10);
-				}
-				else
-				{
-					putchar(44);
-					putchar(32);
+				putchar(',');
+				putchar(' ');
 				}
 			}
+
 		}
 	}
+	putchar('\n');
 	return (0);
 }
