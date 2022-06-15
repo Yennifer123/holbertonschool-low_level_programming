@@ -1,14 +1,13 @@
-#include <stdio.h>
-#include <string.h>
-/**
- * main - using ascii
- *
- * Return: Always 0 (Success)
- */
+#include <unistd.h>
 
-int main(void)
-	{
-char str1[] = '95'putchar;
-puts(str1);
-return (0);
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
 }
