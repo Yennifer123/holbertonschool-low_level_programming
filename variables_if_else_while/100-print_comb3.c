@@ -9,9 +9,9 @@ int main(void)
 	int number = 0;
 	int numberTwo = 0;
 
-	for (number = '0'; number < '8'; number++)
+	for (number = '0'; number <= '8'; number++)
 	{
-		for (numberTwo = '0'; numberTwo < '9'; numberTwo++)
+		for (numberTwo = '0'; numberTwo <= '9'; numberTwo++)
 		{
 			if (number < numberTwo)
 			{
