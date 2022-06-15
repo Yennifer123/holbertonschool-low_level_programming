@@ -14,11 +14,11 @@ int main(void)
 		putchar(letter);
 		letter++;
 	}
-	 while (capitalLetter <= 'Z')
-        {
-                putchar(capitalLetter);
-                capitalLetter++;
-        }
+	while (capitalLetter <= 'Z')
+	{
+		putchar(capitalLetter);
+		capitalLetter++;
+	}
 	putchar('\n');
 	return (0);
 }
