@@ -12,6 +12,6 @@ if (n < 0)
 n = n * -1;
 }
 lastDigit = n % 10;
-_putchar('0' + lastDigit);
+_putchar(lastDigit + '0');
 return (lastDigit);
 }
