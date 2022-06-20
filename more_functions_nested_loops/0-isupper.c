@@ -5,10 +5,10 @@
  */
 int _isupper(int c)
 {
-int result = 1;
-if (c >= 'a' && c <= 'z')
+int result = 0;
+if (c >= 'A' && c <= 'Z')
 {
-result = 0;
+result = 1;
 }
 return (result);
 }
